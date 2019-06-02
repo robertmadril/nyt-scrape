@@ -1,0 +1,26 @@
+{
+  "name": "nyt-scrape",
+  "version": "1.0.0",
+  "description": "nytimes scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertmadril/nyt-scrape.git"
+  },
+  "author": "Robert Madril",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertmadril/nyt-scrape/issues"
+  },
+  "homepage": "https://github.com/robertmadril/nyt-scrape#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.12"
+  }
+}
